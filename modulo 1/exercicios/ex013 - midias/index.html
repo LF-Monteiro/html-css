@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Mídias</title>
+
+    </head>
+
+    <body>
+    
+        <h1>Mídias</h1>
+            <h2>Áudios</h2>
+                <p>É possível colocar áudios em um site utilizando a tag &lt;audio&gt;.</p>
+                <audio preload = "none" controls> <!--Preload define como o vídeo será carregado. Se será carregado junto com a página ou se vai carregar no momento da reprodução do áudio-->
+                    <!--controls apresenta o player na tela-->
+                    <!--Formatos de áudios existentes: mp3(type=audio/mpeg) ogg(type=audio/ogg) e wav(type=audio/wave)-->
+                    <source src = "midia/gully-dreams-hanu-dixit.mp3" type = "audio/mpeg">
+                    <source src = "midia/gully-dreams-hanu-dixit.mp3" type = "audio/ogg"> 
+                    <source src = "midia/gully-dreams-hanu-dixit.mp3" type = "audio/wav">
+                    <p>Infelizmente seu navegador não consegue reproduzir este áudio. Você pode baixa-lo clicando <a href="midia/gully-dreams-hanu-dixit.mp3" download = "gully-dreams-hanu-dixit.mp3" type = "audio/mpeg" >aqui</a></p>
+                
+                </audio>
+            <h2>Vídeos com hospedagem própria</h2>
+                <p>É possível colocar vídeos em um site usando a tag &lt;video&gt;.<br> O vídeo a seguir está hospedado em meu próprio servidor</p>
+                <video width = "560" poster = "imagens/xadrez-thumb1.jpg" controls>
+   
+                    <source src="midia/video-xadrez.mp4" type="video/mp4">
+                    <source src="midia/video-xadrez.m4v" type="video/m4v">
+                    <source src="midia/video-xadrez.webm" type="video/webm">
+                    <source src="midia/video-xadrez.ogv" type="video/ogv">
+                    <p>Infelizmente seu navegador não é compatível com os formatos de vídeos disponíveis. Você pode baixar o vídeo clicando <a href="midia/video-xadrez.mp4" download = "video-xadrez.mp4" type = "video/mp4">aqui</a></p>
+
+                </video>
+            <h2>Vídeos externos</h2>
+                <p>Podemos colocar vídeos hospedados em outras plataformas, como o youtube por exemplo.<br> Assista a esse vídeo do canal Curso em Vídeo para entender melhor sobre vídeos externos.</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=_4g0GqAd2531-pva" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <p>Para um estudo mais completo, acesse o <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/11%20-%20Imagens%20din%C3%A2micas%2C%20%C3%A1udios%20e%20v%C3%ADdeos.pdf" target = "_blank" rel = "external">PDF capítulo 11</a>.</p>
+                <p>Você também pode baixar o PDF capítulo 11 clicando <a href="documentos/11 - Imagens dinâmicas, áudios e vídeos.pdf" download = "11 - Imagens dinâmicas, áudios e vídeos.pdf" type = "application/pdf">aqui</a>.</p>
+                
+
+
+    </body>
+
+</html>

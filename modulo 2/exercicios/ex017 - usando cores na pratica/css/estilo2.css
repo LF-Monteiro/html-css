@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
+
+body {
+
+    background-color: rgb(18, 170, 207);
+
+}
+
+main {
+
+    width: 800px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 12px rgba(37, 75, 0, 0.486);
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: auto;
+
+}
+
+h1 {
+
+    text-align: center;
+    color: rgb(202, 154, 63);   
+
+}
+
+h2 {
+
+    text-align: justify;
+    color: rgb(68, 22, 22);
+
+}
+
+p {
+
+    text-align: justify;
+
+
+}

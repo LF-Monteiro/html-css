@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Pseudo-classe "Hover"</title>
+
+        <style>
+
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            div:hover{
+                color: red;
+            }
+
+            div > p {
+                display: none;
+            }
+
+            div:hover > p {
+                display: block;
+                background-color: rgba(0, 250, 250, 0.452);
+                color: black;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+    
+        <h1>Mais exemplos de "hover"</h1>
+        <p>Passe o muouse no texto abaixo:</p>
+        <div>Passe o mouse aqui. <p>TEXTO OCULTO...</p></div>
+        <p>Perceba que ao passar o mouse aparece um texto oculto, isso pode ser usado como um protótipo de menu por exemplo.</p>
+
+
+    </body>
+
+</html>

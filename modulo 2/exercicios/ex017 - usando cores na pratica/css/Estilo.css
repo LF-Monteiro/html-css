@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*Configuração global CSS*/
+* {
+
+    font-family: Verdana, Tahoma, sans-serif;
+
+}
+
+body {
+
+    background-image: linear-gradient(45deg, #009FFD -10%, #2B3A67 ); /*Adiciona um gradiente de cores*/
+
+}
+
+main {
+
+    background-color: white; /*Altera a cor de fundo*/
+    border-radius: 10px; /*Borda arredondada*/
+    box-shadow: 20px 20px 15px #151d333d; /*Cria uma sombra (sombra para a direita, sombra para baixo, espalhamento de sombra, cor)*/
+    width: 750px; /*Largura*/
+    padding: 10px; /*Cria uma borda de espaçamento para que o texto não fique colado na margem*/
+    margin: auto; /*Centraliza seu texto idependente do tamanho do navegador*/
+    
+}
+
+h1 {
+
+    color: #F3A712; /*Cor*/
+    text-align: center; /*Centralizar texto*/
+    text-shadow: 1px 1px 1px #855b099d; /*Cria uma sombra no texto (sombra para a direita, sombra para baixo, espalhamento de sombra, cor)*/
+
+}
+
+h2 {
+
+    color: #2b3a67; 
+
+}
+
+p {
+
+    text-align: justify; /*Altera a posição do texto*/
+
+}

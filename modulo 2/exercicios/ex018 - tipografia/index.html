@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Tipografia</title>
+
+        <style>
+
+            body {
+                /*Tag para escolher o tipo de família de fonte*/
+                font-family: Verdana, Tahoma, sans-serif;
+
+                /*Tag para escolher o tamanho da fonte*/
+                font-size: 16px ;
+                /*
+                Medidas para tamanhos de fonte: 
+                medidas absolutas:
+                cm(centímetro), mm(milímetro), in(polegada), px(pixel), pt(ponto), pc(pyca). 
+
+                mediadas relativas:display: 
+                em(altura M), ex(altura x), rem <3, vw, vh.
+
+                De acordo com a W3C é recomendado o uso apenas do "px" e do "em".
+
+                16px geralmente é = 1em 
+                */
+              
+                font-weight: normal;/*Tag utilizada para escolher o peso da fonte (Fina ou Gorda)*/
+                /*
+                Nem todas as fontes possuem todos os pesos de fonte. alguns exemplos de peso:
+                lighter, normal, bold, bolder
+                ;*/
+
+                font-style: italic;  /*Altera o estilo da fonte*/
+                text-decoration: underline; /*Altera o estilo do texto*/
+            }
+
+            h1 {
+
+                /*shorthand font:
+                
+                - font-style -> font-weight -> font-size -> font-family
+
+                font-style: italic;
+                font-weight: normal;
+                font-size: 3em;
+                font-family: verdana;*/
+
+                /*Exemplo de shorthand para abreviar comandos de fonte*/
+                font: italic normal 3em verdana;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+    
+        <h1>Famílias de fontes</h1>
+            <h2>Título 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod laborum maiores fugiat minima, soluta, perferendis optio perspiciatis debitis qui exercitationem nam, possimus eos beatae labore dolore totam iusto unde harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quam dolores repudiandae labore quo necessitatibus facilis odit eius magni? Praesentium id reprehenderit, cupiditate voluptatum odio hic et consequatur assumenda beatae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. A reprehenderit vel deserunt. Eligendi, vel. Tenetur placeat maiores earum consequuntur quis doloremque, nam cupiditate iure blanditiis inventore dolor architecto provident pariatur!</p>
+            <h2>Título 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ipsam cupiditate sed facilis quia impedit molestias laboriosam itaque! Dignissimos, accusantium incidunt. Obcaecati, consectetur doloribus ea pariatur amet aliquam natus unde. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error dolor similique ex aperiam qui id quo praesentium quasi ullam harum dolorem beatae quibusdam sit magnam, nihil molestias reiciendis facere explicabo.</p>
+
+
+    </body>
+
+</html>

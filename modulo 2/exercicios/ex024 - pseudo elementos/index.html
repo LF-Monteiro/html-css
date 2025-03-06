@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Pseudo-elementos</title>
+
+        <style>
+
+            /*
+                # = id
+                . = class
+                : = pseudo-class
+                :: = pseudo-elements
+                > = children           
+            */
+
+            a {
+                color: blue;
+            }
+
+            a:hover {
+                color: rgb(7, 211, 7);
+            }
+
+            a:visited {
+                color: rgb(194, 78, 43);
+            }
+                       
+            .especial {
+                background-color: #ffafadb9;
+            }
+            
+           
+
+            
+
+        </style>
+
+    </head>
+
+    <body>
+    
+        <h1>Pseudo-elementos</h1>
+        <p>Os pseudo-elementos são diferente das pseudo-classes. Enquanto as pseudo-classes estilizam um elemento inteiro, os pseudo-elementos estilizam alguma parte do elemento.
+        </p>
+
+        <h1>Exemplo</h1>
+         <ul>
+
+            <li><a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">Youtube curso em vídeo</a></li>
+            <li><a href="https://chat.deepseek.com/" target="_blank" class="especial">DeepSeek</a></li>
+            <li><a href="https://www.chess.com/home" target="_blank">Xadrez</a></li>
+
+         </ul>
+
+         <p>Geralmente os pseudo-elementos são mais usados em links para destacar e gerar mais interatividade para o usuário.</p>
+
+    </body>
+
+</html>

@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebas';
+    src: url("../fontes/Bebas.ttf") format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    background-color: rgb(68, 68, 68);
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 35px;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Bebas', sans-serif;
+}
+
+header > p {
+    
+}
+
+nav#links1 {
+    background-color: rgb(47, 78, 55);
+    padding: 12px;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 4px;
+    text-decoration: none;
+    margin: 5px;
+    
+}
+
+header > p {
+    margin: 0px;
+    text-align: center;
+}
+
+main {
+    margin: 8px 30px 8px 30px; 
+}
+
+section#introducao > img {
+    background-color: white;
+    display: block;
+    padding: 10px 441px;
+    margin: auto;
+}
+
+section#meio > img {
+    background-color: white;
+    display: block;
+    padding: 10px 442px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+    padding: 5px;
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+    border: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkgray;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.267);
+}
+
+p {
+    text-align: justify;
+    
+}
+
+section#introducao > p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: white;
+    padding:6px 6px 6px 6px
+}
+
+section#introducao > h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+section#meio > h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section#conclusao > h2 {
+    margin-top: 10px;
+}
+
+div#bloco1 {
+    background-color: white;
+    padding: 6px;
+    border-radius: 5px 0px;
+}
+
+div#bloco2 {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+
+div#bloco3 {
+    background-color: white;
+    margin-top: 10px;
+    padding: 6px;
+}
+
+.margin-top {
+    margin-top: 0px;
+}
+
+.margin-right {
+    margin-right: 0px;
+}
+
+.margin-bottom {
+    margin-bottom: 0px;
+}
+
+.margin-left {
+    margin-left: 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-top: 8px;
+}
+
+footer > p {
+    margin: 0px;
+    text-align: center;
+}
+
+/**/
