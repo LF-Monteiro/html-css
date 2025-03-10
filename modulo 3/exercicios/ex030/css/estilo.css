@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-color: darkgrey;
+}
+
+main {
+    background-image: url(../imagens/wallpaper001.jpg);
+    margin: auto;
+    
+    width: 700px;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.quadrado {
+    background-color: lightgreen;
+    border: 3px solid black;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 20px;
+    
+}
+
+div#q1 {
+    background-color: blueviolet;
+}
+
+div#q2 {
+    background-image: linear-gradient(to 
+        bottom, red, orange, yellow
+    );
+}
+
+div#q3 {
+    background-image: url(../imagens/wallpaper002.jpg);
+}
