@@ -1,14 +1,32 @@
 @charset "UTF-8";
 
 body {
-    background-color: black;
-    background-image: url(../imagens/wallpaper002.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+
+    /*  
+        background-color: black;
+        background-image: url(../imagens/wallpaper002.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;   
+    /*
 
     /* "background-size: cover;" É um comando que exibe a imagem de fundo sem distorções. Quando uma imagem é maior do que o dispositivo que está sendo exibida o site carrega parte da imagem. */
+    
+    /* "background-attachment: ;" É um comando que altera o estado da imagem de fundo. Você consegue por exemplo definir se a imagem de fundo vai se movimentar junto com o conteúdo ou se a imagem vai ficar estática e apenas o conteúdo vai se mover. */
+
+    /* "100vh" Significa 100% da área visível na tela do navegador ou da tela de um dispositivo, ou seja, 100% da largura e altura visíveis no navegador. Geralmente é usado o valor de 100& dependendo do que você prentende fazer mas esté valor pode ser alterado. */
+
+    /* ShortHand - Background
+
+        color > image > position > repeat > size > attachment
+
+    */
+
+    background: black url(../imagens/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    
 }
 
 main {
