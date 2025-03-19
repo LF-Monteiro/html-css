@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+    background-image: url(../imagens/wallpaper002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    /* "background-size: cover;" É um comando que exibe a imagem de fundo sem distorções. Quando uma imagem é maior do que o dispositivo que está sendo exibida o site carrega parte da imagem. */
+}
+
+main {
+    background-color: white;
+    padding: 8px;
+    margin: auto;
+    width: 400px;
+}
