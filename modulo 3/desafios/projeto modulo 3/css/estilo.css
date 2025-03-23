@@ -3,12 +3,18 @@
 @font-face {
     font-family: 'Roboto';
     src: url(../fontes/roboto/Roboto-Regular.ttf);
+
+    font-family: 'dealerplate_california';
+    src: url(../fontes/dealerplate_california/dealerplatecalifornia.otf);
+
+    font-family: 'sono';
+    src: url(../fontes/sono/desktop/Sono-Regular.ttf);
 }
 
 @media (max-width: 650px) {
 
     main {
-        padding: 0px 8px 0px 8px;
+        padding: 0px 8px 0px 16px;
         min-width: 220px;
     }
 }
@@ -31,6 +37,8 @@ header {
 
 header > h1 {
     color: white;
+    font-size: 2.8em;
+    text-shadow: white 1px 1px 1px;
 }
 
 body {
@@ -45,23 +53,52 @@ p {
     line-height: 20px;
 }
 
-main {
-    
-}
-
 h1 {
     text-align: center;
+    color: #125241;
     font-family: 'Roboto';
+    text-shadow: #125241 1px 1px 1px;
+}
+
+h2 {
+    font-family: 'sono';
+}
+
+h3 {
+    font-family: 'sono';
+}
+
+ul {
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    font-size: 1.2em;
+}
+
+a {
+    color: rgb(0, 56, 3);
+    text-decoration: none;
+    text-shadow: rgb(0, 56, 3) 1px 1px 1px;
+}
+
+a:hover {
+    color: rgb(2, 173, 11);
+    text-decoration: underline;
+    text-shadow: rgb(2, 173, 11) 1px 1px 1px;
 }
 
 section.introducao {
     background-color: rgb(255, 246, 215);
-    margin: 0px -100px 0px -100px;
+    margin: 0px -105px 0px -100px;
     padding: 10px 100px 10px 100px;
 }
 
 section.introducao > h1 {
-    margin: 6px 0px 16px 0px
+    margin: 6px 0px 0px 0px;
+    font-size: 2em;
+    
+}
+
+section.introducao > h2 {
+    color: #033629;
 }
 
 section.plantando {
@@ -71,8 +108,51 @@ section.plantando {
     background-attachment: fixed;
     background-position: center center ;
     color: white;
-    margin: 0px -100px 0px -100px;
+    margin: 0px -105px 0px -100px;
     padding: 10px 100px 10px 100px;
+}
+
+section.plantando > h2 {
+    font-weight: bolder;
+    text-shadow: white 1px 1px 1px;
+}
+
+section.plantando > h3 {
+    font-weight: bolder;
+    text-shadow: white 0.3px 0.3px 1px;
+}
+
+section.cuidados {
+    background-color: #dbcdcd;
+    margin: 0px -105px 0px -100px;
+    padding: 10px 100px 10px 100px;
+}
+
+section.cuidados > h1 {
+    font-size: 2em;
+}
+
+section.cuidados > h2 {
+    color: #033629;
+}
+
+section.cuidados > h3 {
+    color: #0c775c;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: max-content;
+}
+
+footer > p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 16px -100px 0px -100px;
+    padding: 6px 0px;
 }
 
 
