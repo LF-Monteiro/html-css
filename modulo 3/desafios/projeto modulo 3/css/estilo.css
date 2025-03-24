@@ -14,7 +14,7 @@
 @media (max-width: 650px) {
 
     main {
-        padding: 0px 8px 0px 16px;
+        padding: 0px 8px 0px 8px;
         min-width: 220px;
     }
 }
@@ -26,25 +26,26 @@
     }
 }
 
+body {
+    background-color: white;
+    max-width: 1360px;
+    margin: 0px;
+}
+
 header {
     background-color: rgb(178, 219, 255);
     background-image: url(../imagens/pexels-creative-vix-7283.jpg);
     background-position: center center;
     text-align: center;
     padding: 80px;
-    margin: -8px -8px 0px -8px;
+    margin: -8px 0px 0px 0px;
 }
 
 header > h1 {
     color: white;
     font-size: 2.8em;
     text-shadow: white 1px 1px 1px;
-}
-
-body {
-    background-color: white;
-    max-width: 1360px;
-    margin: 0px;
+    font-variant: small-caps;
 }
 
 p {
@@ -87,7 +88,7 @@ a:hover {
 
 section.introducao {
     background-color: rgb(255, 246, 215);
-    margin: 0px -105px 0px -100px;
+    margin: 0px -100px 0px -100px;
     padding: 10px 100px 10px 100px;
 }
 
@@ -107,8 +108,10 @@ section.plantando {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center ;
+    background-color: rgb(59, 59, 59);
     color: white;
-    margin: 0px -105px 0px -100px;
+    text-shadow: 1px 1px 1px black;
+    margin: 0px -100px 0px -100px;
     padding: 10px 100px 10px 100px;
 }
 
@@ -124,7 +127,7 @@ section.plantando > h3 {
 
 section.cuidados {
     background-color: #dbcdcd;
-    margin: 0px -105px 0px -100px;
+    margin: 0px -100px 0px -100px;
     padding: 10px 100px 10px 100px;
 }
 
@@ -140,6 +143,30 @@ section.cuidados > h3 {
     color: #0c775c;
 }
 
+section.doencas {
+    background-image: url(../imagens/fundofolha-escuro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: rgb(59, 59, 59);
+    margin: 0px -100px 0px -100px;
+    padding: 10px 100px 10px 100px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+section.doencas > h1 {
+    color: white;
+    font-size: 2em;
+}
+
+section.doencas > h2 {
+    color: white;
+    font-weight: bolder;
+    text-shadow: white 1px 1px 1px;
+}
+
 img {
     display: block;
     margin: auto;
@@ -151,9 +178,10 @@ footer > p {
     background-color: black;
     color: white;
     text-align: center;
-    margin: 16px -100px 0px -100px;
+    margin: 0px;
     padding: 6px 0px;
 }
+
 
 
 
