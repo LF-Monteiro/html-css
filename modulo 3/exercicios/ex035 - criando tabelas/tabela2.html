@@ -14,28 +14,38 @@
 
     <body>
     
-        <h1>10 Jogos mais bem avaliados da Steam Março 2025</h1>
+        <h1>Anatomia de tabelas grandes</h1>
         <!--
             ANATOMIA PARA TABELAS GRADES
                 TABLE
+                    CAPTION
                     THEAD
                         tr, td, th
                     TBODY
                         tr, td, th
                     TFOOT 
-                        tr, td, th      
+                        tr, td, th  
+                        
+            -----------------------------
+
+            scope="col" Serve para os mecanismos de busca usam para identificar que o conteúdo relacionado está na mesma coluna. É geralmente utilizado no thead.
+
+            scope="row" Serve para os mecanismos de busca usam para identificar que o conteúdo relacionado está na mesma linha.
+
         -->
 
         <table>
 
+            <caption>10 Jogos mais bem avaliados da Steam Março 2025</caption>
+
             <thead>
                 <tr>
-                    <th id="escuro">posição</th>
-                    <th>Jogos</th>
-                    <th>Avaliações positivas</th>
-                    <th>Avaliações negativas</th>
-                    <th>Rating final</th>
-                    <th>Avaliações</th>
+                    <th id="escuro" scope="col">posição</th>
+                    <th scope="col">Jogos</th>
+                    <th scope="col">Avaliações positivas</th>
+                    <th scope="col">Avaliações negativas</th>
+                    <th scope="col">Rating final</th>
+                    <th scope="col">Avaliações</th>
                 </tr>
             </thead>
 

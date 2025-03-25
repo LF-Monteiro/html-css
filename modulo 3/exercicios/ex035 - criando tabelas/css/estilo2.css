@@ -10,8 +10,16 @@ h1 {
 
 table {
     width: 400px;
-    border-collapse: collapse;
+    border-collapse: collapse; 
     margin: auto;
+}
+
+caption {
+    background-color: rgb(65, 65, 65);
+    border: 1px solid black;
+    font-size: 1.2em;
+    color: white;
+    padding: 10px;
 }
 
 td, th {
@@ -20,6 +28,15 @@ td, th {
     padding: 10px;
     text-align: center;
 }
+
+/*td:nth-child(odd) { É UMA PSEUDOCLASSE QUE SERVE PARA CRIAR O EFEITO ZEBRADO NAS TABELAS COM CÉLULAS ÍMPARES. odd = ímpar (2n-1)
+
+}*/
+
+/*td:nth-child(even) { É UMA PSEUDOCLASSE QUE SERVE PARA CRIAR O EFEITO ZEBRADO NAS TABELAS COM CÉLULAS PARES. even = par (2n)
+
+}*/
+
 th#escuro {
     background-color: rgb(156, 156, 156);
 }
