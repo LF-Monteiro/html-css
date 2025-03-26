@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo5.css">
+        
+        <title>Tabela 5</title>
+
+    </head>
+
+    <body>
+    
+        <h1>Exercício tabelas</h1>
+
+        <table>
+            <!-- <colgroup> "colgroup" É UMA TAG PARA INDICAR COLUNAS EM UMA TABELA, ISSO TRNA MAIS FÁCIL NA HORA DE PERSONALIZAR COM CSS.
+                <col> "col" É UMA TAG PARA DIZAR QUE HÁ UMA COLUNA.
+                <col>
+                <col>
+                <col>
+            </colgroup> -->
+            <thead class="cinzaescuro">
+                <tr>
+                    <th rowspan="2" scope="col">Área</th>
+                    <th rowspan="2" scope="col">Disciplina</th>
+                    <th colspan="2" scope="colgroup">Notas</th>
+                    <th rowspan="2" scope="col">Média</th>
+                </tr>
+
+                <tr>
+                    <th scope="col">Nota1</th>
+                    <th scope="col">Nota2</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <th rowspan="4" scope="rowgroup">Exatas</th>
+                    <th scope="row">Matematica</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Física</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Química</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Biologia</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr class="cinzaescuro">
+                    <th colspan="4" scope="row">Média de exatas</th>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <th rowspan="2" scope="rowgroup">Humanas</th>
+                    <th scope="row">História</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">Geografia</th>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+
+                <tr class="cinzaescuro">
+                    <th colspan="4" scope="row">Média de humanas</th>
+                    <td>0.0</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </body>
+
+</html>

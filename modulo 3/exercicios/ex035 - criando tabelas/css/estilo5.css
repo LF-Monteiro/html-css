@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 450px;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.cinzaescuro {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
