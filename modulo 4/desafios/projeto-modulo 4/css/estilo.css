@@ -23,7 +23,7 @@ main {
     height: 100vh;
 }
 
-#telefone {
+section#telefone {
     position: absolute;
     width: 311px;
     height: 627px;
@@ -33,4 +33,33 @@ main {
     left: 50%;
 
     transform: translate(-50%, -50%)
+}
+
+#telahome {
+    position: relative;
+    top: 77px;
+    left: 22px;
+    width: 263px;
+    height: 470px;   
+}
+
+section#redes-sociais img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.603);
+    margin: 5px;
+
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.466);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px black;
+    transition: 0.3s;
+}
+
+section#redes-sociais {
+    text-align: right;
 }
