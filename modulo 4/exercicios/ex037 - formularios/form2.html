@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Formulários 2</title>
+
+    </head>
+
+    <body>
+    
+        <h1>Mais funcionalidades para os formulários</h1>
+
+        <!-- "ACTION" Para onde os dados serão enviados. -->
+        <!-- "METHOD" Método de envio do formulário. -->
+        <!-- "AUTOCOMPLETE" Guarda uma informação que você colocou em um campo anteriormente e te sugere ba próxima vez em que você preencher o campo. Você pode deixar ela ativada ou desativada. -->
+        <!-- "REQUIRED" Serve para dizer que o campo precisa estar preenchido com algo para ser enviado, ou seja, um campo obrigatório como senha por exemplo. -->
+
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+
+            <div>
+                <label for="idusuario">Usuário <input type="text" name="usuario" id="idusuario" required></label>
+            </div>
+
+            <div>
+                <label for="idsenha">Senha <input type="password" name="senha" id="idsenha" required></label>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar"> <!-- "imput subimit = imput para enviar os dados preenchidos." -->
+            </div>
+
+            <div>
+                <input type="reset" value="Limpar"> <!-- "imput reset" = imput para limpar os dados preenchidos mas não enviados nos campos do formulário. -->
+            </div>
+
+        </form>
+
+    </body>
+
+</html>

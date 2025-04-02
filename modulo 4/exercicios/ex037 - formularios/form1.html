@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Formulários</title>
+
+    </head>
+
+    <body>
+    
+        <h1>Meu primeiro formulário</h1>
+
+        <!-- "FORM" É uma tag para criar um formulário. -->
+
+        <!-- "INPUT" Cria uma caixa para que os dados possam ser inseridos. -->
+
+        <!-- "LABEL" Serve para relacionar o campo de preenchimento com o nome desse campo. Exemplo, relaciona o Texto "Sobrenome" com a caixa em que o sobrenome deve ser inserido, pode parecer bobo mas o computador não é inteligente ao ponto de relacionar coisas que parecem óbvias para nós. -->
+
+        <!-- Na tag "input" existem dois parâmetros, "name" e "id", eles servem para que as linguagens consigam identificar aquela caixa gerada pelo imput.
+
+        "name" Melhor para PHP e HTML identificar o input.
+        "id" Melhor para javascript idenficar o input. 
+        
+        É provável que existam mais linguagens porém essas foram as que recebi de exemplo.-->
+
+        <!-- "GET" É um método de envio de formulário mais simples, usado quando os dados não são sensíveis.
+        "POST" É um método de envio de formulário um pouco mais "seguro", usado quando os dados são sensíveis mas pode ser usado com dados não sensíveis. -->
+
+        <form action="cadastro.php" method="post" autocomplete="off">
+
+            <p><label for="idnome">Nome:</label><input type="text" name="nome" id="idnome"></p>
+
+            <p><label for="idsobrenome">Sobrenome:</label><input type="text" name="Sobrenome" id="idsobrenome"></p>
+
+            <p><label for="ididade">Idade:</label><input type="number" name="Idade" id="ididade"></p>
+
+            <p><input type="submit" value="Enviar"></p>
+
+        </form>
+
+    </body>
+
+</html>
