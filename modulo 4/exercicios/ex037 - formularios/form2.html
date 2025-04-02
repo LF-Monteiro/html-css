@@ -9,6 +9,20 @@
         
         <title>Formulários 2</title>
 
+        <style>
+
+            * {
+                margin: 0px;
+                padding: 0px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            div {
+                margin: 10px 0px 10px 8px;
+            }
+
+        </style>
+
     </head>
 
     <body>
@@ -16,19 +30,32 @@
         <h1>Mais funcionalidades para os formulários</h1>
 
         <!-- "ACTION" Para onde os dados serão enviados. -->
+
         <!-- "METHOD" Método de envio do formulário. -->
+
         <!-- "AUTOCOMPLETE" Guarda uma informação que você colocou em um campo anteriormente e te sugere ba próxima vez em que você preencher o campo. Você pode deixar ela ativada ou desativada. -->
+
         <!-- "REQUIRED" Serve para dizer que o campo precisa estar preenchido com algo para ser enviado, ou seja, um campo obrigatório como senha por exemplo. -->
+
+        <!-- "MINLENGTH" Serve para definir caracteres mínimos para o campo. -->
+
+        <!-- "MAXLENGTH" Serve para definir caracteres máximos para o campo. -->
+
+        <!-- "PLACEHOLDER" Serve para deixar uma mensagem transparente dentro do campo de preenchimento. Exemplo, no campo de "senha" pode ter a mensagem "sua senha aqui". -->
 
 
         <form action="cadastro.php" method="post" autocomplete="on">
 
             <div>
-                <label for="idusuario">Usuário <input type="text" name="usuario" id="idusuario" required></label>
+                <label for="idusuario">Usuário: <input type="text" name="usuario" id="idusuario" required minlength="5" maxlength="20" placeholder="Nome de usuário" autocomplete="username"></label> 
+                <!-- "input text" = input para o preenchimento de texto. -->
+                <!-- "autocomplete username" = Indica que o a ação de autocompletar e para "nomes de usuários". -->
             </div>
 
             <div>
-                <label for="idsenha">Senha <input type="password" name="senha" id="idsenha" required></label>
+                <label for="idsenha">Senha: <input type="password" name="senha" id="idsenha" required minlength="8" maxlength="20" placeholder="Senha" autocomplete="current-password"></label> 
+                <!-- "input password" = input para o preenchimento de senhas. -->
+                <!-- "autocomplete current-password" Indica que a ação de autocompletar e para a "senha atual". -->
             </div>
 
             <div>
