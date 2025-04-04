@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Formulário 6</title>
+
+        <style>
+
+            * {
+                margin: 0px;
+                padding: 0px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            h1 {
+                text-align: center;
+                margin: 16px;
+            }
+
+            div {
+                margin: 10px 0px 10px 8px;
+            }
+
+            form {
+                margin: 0px 520px;
+                padding: 5px;
+                background-color: rgba(255, 228, 196, 0.555);
+                text-align: center;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+    
+        <h1>Controles para formulários sem input</h1>
+
+        <form action="formulario.php" method="post">
+
+            <div>
+
+                <label for="idestados">Estados:</label>
+                <select name="estados" id="idestados"> 
+                    <!-- "SELECT" Cria uma caixa com a várias opções de escolha. -->
+
+                    <optgroup label="Região Sudeste"> <!-- "OPTGROUP" Cria um grupo de opções. -->
+                        <option value="MG">Minas Gerais</option> <!-- "OPTION" Cria varias opções para o select. -->
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="ES">Espírito Santo</option>
+                    </optgroup>
+
+                    <optgroup label="Região Sul">
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="PR">Paraná</option>
+                    </optgroup>
+
+                </select>
+
+            </div>
+
+            <div>
+
+                <label for="idprofissao">Profissão:</label>
+                <input type="text" name="profissao" id="idprofissao" list="profissoes">
+
+                <datalist id="profissoes"> <!-- "DATALIST" Cria uma com várias opções porém pode digitar na caixa se quiser, útil para momentos em que você não encontra o que você quer nas opções. -->
+                    <option>Professor</option>
+                    <option>Desenvolvedor</option>
+                    <option>Adiministrador</option>
+                    <option>Contador</option>
+                    <option>Desiner</option>
+                </datalist>
+
+            </div>
+
+            <div>
+
+                <label for="idmensagem">Mensagem</label> <br>
+                <textarea name="Mensagem" id="idmensagem" cols="30" rows="10"></textarea>
+                <!-- "TEXTAREA" Cria uma caixa para que uma mensagem seja escrita. -->
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+
+        </form>
+
+    </body>
+
+</html>
+
+
+
+
+
+
